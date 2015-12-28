@@ -1,3 +1,4 @@
+package UI;
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -73,7 +74,7 @@ public class MainWindow extends JFrame
 		{
 			public void actionPerformed(ActionEvent arg0)
 			{
-				JFileChooser fc = new JFileChooser("C:\\Sample Images");
+				JFileChooser fc = new JFileChooser("C:\\Sample Files");
 				fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
 				//fc.setCurrentDirectory(new File(System.getProperty("user.home") + "\\Pictures"));
 				
